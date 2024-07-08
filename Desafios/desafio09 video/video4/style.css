@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+   }
+header{
+    color: blue;
+    font-size: 28PX;
+    margin-left: 10%; 
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 25%;   
+    width: 500;
+}
+
+footer{
+    font-size: 30PX;
+    margin-left: 45%; 
+    margin-top: 5%;
+}
+footer p{
+    margin-top: 2%;
+    margin-left: -20%; 
+    color: aliceblue;
+}

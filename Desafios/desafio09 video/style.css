@@ -1,0 +1,14 @@
+body{
+   color: blue;
+   font-size: 20px;
+   background-color: black;
+   padding-left: 35%;
+    padding-top: 20px;     
+   }
+
+section{
+    display: flexbox;
+    padding-left:0%;
+    padding-top: 20px; 
+    
+}
