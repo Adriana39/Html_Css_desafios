@@ -1,5 +1,65 @@
-*{
+@charset "UTF-8";
+ *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+ }
+html,body{
+    min-height: 100vh;
+    background-color: rgba(169, 169, 169, 0.226);
 }
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header >h1{
+    padding: 50px;
+    font-variant: small-caps;
+}
+header >p{
+    padding-bottom: 50px;
+    }
+
+ header a, footer a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 2em;
+    padding-left: 50px;
+}
+
+section.normal{
+    background-color: rgb(214, 210, 210);
+    color: rgba(14, 13, 13, 0.959);
+}
+
+section.imagem{
+    background-color: rgba(22, 22, 22, 0.801);
+    color: whitesmoke;
+}
+
+section.imagem > p{
+    background-color: black;
+    width: 400px;
+    text-align: right;
+
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
